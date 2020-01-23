@@ -8,5 +8,9 @@ BASE_HOA = {
 def add_character(show, name)
   # Write your implementation here
   # Should return the array of the 'show' argument
-  BASE_HOA.each { |key| BASE_HOA[:key] >> name }
+
+  BASE_HOA[show] << name
+
+  show
+
 end
